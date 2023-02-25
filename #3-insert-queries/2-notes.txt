@@ -1,0 +1,8 @@
+This task refreshed my knowledge on referential integrity.
+I first attempted information about an employee's title into the `title` table. Turns out however that I cannot do that and go the following error:
+
+Error Code: 1452. Cannot add or update a child row: a foreign key constraint fails (`employees`.`titles`, CONSTRAINT `titles_ibfk_1` FOREIGN KEY (`emp_no`) REFERENCES `employees` (`emp_no`) ON DELETE CASCADE)
+
+This is because the emp_no column in the `titles` table is a foreign key referencing a corresponding column in the employees table.
+
+Therefore, I had to first insert the employee's information in the `employee` table before inserting his title, which makes logical sense. An employee can only have a title when they actually exist.  

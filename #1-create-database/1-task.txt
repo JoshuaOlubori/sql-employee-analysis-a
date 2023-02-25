@@ -1,0 +1,1 @@
+Create and populate a database named employees with the schema illustrated in the pdf file attached
