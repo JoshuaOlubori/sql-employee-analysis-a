@@ -32,3 +32,20 @@ FROM
     dept_emp
 WHERE
     emp_no = 999903; -- successful insert confirmed
+
+-- 3. Change the “Business Analysis” department name to “Data -- Analysis”
+SET AUTOCOMMIT = 0; -- turning off autocommit
+UPDATE departments set dept_name = 'Data Analysis' where dept_no = 'd010'; -- updating the table
+select * from departments;
+ROLLBACK; -- reverse the change
+
+select * from departments; -- confirm that the change has been rolled back
+UPDATE departments set dept_name = 'Data Analysis' where dept_no = 'd010'; -- repeat the change
+COMMIT; -- persist the change to the database
+select * from departments; -- confirm the change has been committed
+SET AUTOCOMMIT = 1; -- turn autocommit back on
+
+-- 4. Remove the department number 10 record from the “departments” table.
+select * from departments;
+delete from departments where dept_no = 'd010';
+select * from departments; -- delete confirmed

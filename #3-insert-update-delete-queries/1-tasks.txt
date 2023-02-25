@@ -8,3 +8,6 @@ At the end, sort the records from the “titles” table in descending order to 
 He/She is working for department number 5, and has started work on  October 1st, 1997; 
 her/his contract is for an indefinite period of time.
 
+3. Change the “Business Analysis” department name to “Data Analysis”
+
+4. Remove the department number 10 record from the “departments” table.
