@@ -1,0 +1,23 @@
+1. Join the 'employees' and the 'dept_manager' tables to return a subset of all the employees whose last name is Markovitch. 
+See if the output contains a manager with that name.  
+‘emp_no’, ‘first_name’, ‘last_name’, ‘dept_no’, ‘from_date’. Order by 'dept_no' descending, and then by 'emp_no'.
+
+2. Extract a list containing information about all managers’ employee number, first and last name, 
+department number, and hire date. Use the old type of join syntax to obtain the result.
+
+3. Select the first and last name, the hire date, 
+and the job title of all employees whose first name is “Margareta” and have the last name “Markovitch”.
+
+4. Cross join with Department Manager and Departments to see possible combination
+
+5. Cross join with Department Manager and Departments to see possible combination but except for the department he/she already in
+
+6. Use a CROSS JOIN to return a list with all possible combinations between managers from the dept_manager table and department number 9.
+
+7. Return a list with the first 10 employees with all the departments they can be assigned to.
+
+8. Select all managers’ first and last name, hire date, job title, start date, and department name.
+
+9. How many male and how many female managers do we have in the ‘employees’ database?
+
+10. Average salary of employees by each department
