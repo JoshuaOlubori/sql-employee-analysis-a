@@ -144,3 +144,47 @@ DELIMITER ;
 SET @v_emp_no = 0;
 CALL employees.emp_info('Chirstian','Koblick',@v_emp_no);
 SELECT @v_emp_no;
+
+-- I need a function to return the average salary of an employee by emp_no
+drop function if exists f_avg_salary;
+delimiter $$
+create function f_avg_salary(p_emp_no integer)
+returns decimal(10,2) reads sql data
+begin
+declare avg_salary decimal(10,2);
+select avg(salary) into avg_salary
+from salaries where emp_no = p_emp_no;
+return avg_salary;
+end $$
+delimiter ;
+
+SELECT F_AVG_SALARY(10001);
+-- +---------------------+
+-- | F_AVG_SALARY(10001) |
+-- +---------------------+
+-- |            75388.94 |
+-- +---------------------+
+-- 1 row in set (0.01 sec)
+
+-- Create a function called ‘emp_info’ that takes for parameters the first and last name of an employee,  */
+-- and returns the salary from the newest contract of that employee.   
+
+drop function if exists f_emp_info;
+delimiter $$
+create function f_emp_info(fname varchar(255), lname varchar(255))
+returns decimal(10,2) reads sql data
+begin
+declare newest_sal decimal(10,2);
+select s.salary into newest_sal
+from salaries s join employees e
+on e.emp_no = e.emp_no
+where e.first_name = fname
+and e.last_name = lname
+order by s.from_date desc
+limit 1;
+return newest_sal;
+end $$
+delimiter ;
+
+-- calling function
+select f_emp_info('Bezalel', 'Simmel');
