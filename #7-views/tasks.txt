@@ -1,0 +1,10 @@
+1. Find employees who have belonged to more than 1 departments
+select e.first_name, e.last_name
+
+2. Get the latest department info of the employee using a view
+
+3. Create a view that will extract the average salary of all managers registered in the database. 
+Round the aggregation to the nearest cent.
+
+4. Create a view to show only the current department for each employee
+i.e create a view that  queries from a preexisting view and a table

@@ -1,0 +1,10 @@
+1. Extract the information about all department managers who were hired between the 1st of January 1990 and the 1st of January 1995.
+
+2. Select the entire information for all employees whose job title is “Assistant Engineer”.
+
+3. Starting your code with “DROP TABLE”, create a table called “emp_manager” 
+(emp_no – integer of 11, not null; dept_no – CHAR of 4, null; manager_no – integer of 11, not null)
+
+
+4. Fill emp_manager with data about employees, the number of the department they are working in, and their managers.
+Your output must contain 42 rows.
