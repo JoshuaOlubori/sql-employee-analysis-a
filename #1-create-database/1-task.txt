@@ -1,1 +1,3 @@
-Create and populate a database named employees with the schema illustrated in the pdf file attached
+Boss: "Welcome to Mansard Industries. Your first task as a data analyst is to create a database for the HR department, query the database for information I shall request and finally design and create a dashboard showing employee information.
+
+First, create and populate a database named employees with the schema illustrated in the image file attached"

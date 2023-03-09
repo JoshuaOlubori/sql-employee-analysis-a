@@ -1,0 +1,20 @@
+-- 1. Boss: I want a query that delivers employee no, names and then a third column that contains their gender, but not as 'm' or 'f' as it is in the database but as 'Male' or 'Female'
+
+-- 2. Similarly, obtain a result set containing the employee number, first name, and last name of all employees with a number higher than 109990. 
+Create a fourth column in the query, indicating whether this employee is also a manager, 
+according to the data provided in the dept_manager table, or a regular employee.
+
+-- 3. Extract a dataset containing the following information about the managers: 
+employee number, first name, and last name. Add two columns at the end – 
+one showing the difference between the maximum and minimum salary of that employee, and another one saying 
+whether this salary raise was higher than $30,000 or NOT.
+
+--4 .Extract the employee number, first name, and last name of the first 100 employees, and add a fourth column,
+ called “current_employee” saying “Is still employed” if the employee is still working in the company, or 
+ “Not an employee anymore” if they aren’t.
+
+-- 5. We've laid off quite a lot of employees over the years and some have retired. I need a query to extract the employee number, first name, and last name of the first 100 employees, and add a fourth column,
+ called “current_employee” saying “Is still employed” if the employee is still working in the company, or 
+ “Not an employee anymore” if they aren’t.
+
+
