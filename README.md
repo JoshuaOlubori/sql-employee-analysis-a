@@ -55,9 +55,8 @@
       <a href="#getting-started">Dashboarding</a>
       <ul>
         <li><a href="#prerequisites">Data transformation </a></li>
-        <li><a href="#installation">DAX Measures</a></li>
-
-    <li><a href="#contact">Contact</a></li>
+        <li><a href="#installation">DAX Measures</a></li> 
+<li><a href="#contact">Contact</a></li>
       </ul>
     </li>
   
@@ -69,7 +68,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Dashboard](https://github.com/JoshuaOlubori/sql-employee-analysis-a/blob/ddfa9521399eadd8cea5f425101dffd880edaa39/dashboard.PNG)
+![Dashboard](https://github.com/JoshuaOlubori/sql-employee-analysis-a/blob/ddfa9521399eadd8cea5f425101dffd880edaa39/dashboard.PNG)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
