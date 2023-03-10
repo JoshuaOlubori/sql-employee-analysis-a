@@ -56,10 +56,11 @@
       <ul>
         <li><a href="#prerequisites">Data transformation </a></li>
         <li><a href="#installation">DAX Measures</a></li>
+
+    <li><a href="#contact">Contact</a></li>
       </ul>
     </li>
   
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -68,7 +69,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Dashboard][Dashboard-screenshot]](https://github.com/JoshuaOlubori/sql-employee-analysis-a/blob/ddfa9521399eadd8cea5f425101dffd880edaa39/dashboard.PNG)
+[![Dashboard](https://github.com/JoshuaOlubori/sql-employee-analysis-a/blob/ddfa9521399eadd8cea5f425101dffd880edaa39/dashboard.PNG)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -253,3 +254,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+
+
+
